@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { calculateWinner } from './rules';
+import { calculateWinner } from '../rules';
 import Board from './board';
 
 export default function Game() {
